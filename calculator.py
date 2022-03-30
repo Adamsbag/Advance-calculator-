@@ -25,7 +25,7 @@ class Calc():
         secondnum= str(num)
         self.result=False
         firstnum=txtDisplay.get()
-        
+        self.input_value = False
         if self.input_value:
             self.current=secondnum
             self.input_value=False
